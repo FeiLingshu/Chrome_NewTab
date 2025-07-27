@@ -5614,7 +5614,7 @@ var Xa = {
 var Xf = Xa.exports;
 const Qa = zs(Xf)
   , Qf = {
-    name: "light-tab-page",
+    ame: "light-tab-page",
     driver: Qa.INDEXEDDB
 }
   , Rn = Qa.createInstance({
@@ -10597,13 +10597,16 @@ const Tp = {
   , Lp = {
     href: "https://github.com/Devifish/light-tab-page/blob/master/LICENSE"
 }
+  , LpC = {
+    href: "https://github.com/FeiLingshu/Chrome_NewTab"
+}
   , Dp = te("br", null, null, -1)
   , Fp = be({
     __name: "About",
     setup(e) {
         const {t} = He()
-          , n = "light-tab-page"
-          , r = "1.5.2"
+          , n = "Chrome_NewTab"
+          , r = "999.9.9"
           , o = le( () => ({
             [t("about.projectHome")]: "https://github.com/Devifish/light-tab-page",
             [t("about.changelog")]: "https://github.com/Devifish/light-tab-page/blob/master/CHANGELOG.md",
@@ -10614,7 +10617,7 @@ const Tp = {
         Q(xe, null, Ge(o.value, (l, c) => (F(),
         Q("li", null, [te("a", {
             href: l
-        }, de(c), 9, Np)]))), 256))]), te("p", Pp, [te("a", Lp, de(v(t)("about.license")), 1), Dp, fe(" Copyright © 2023 Devifish. All rights reserved. ")])]))
+        }, de(c), 9, Np)]))), 256))]), te("p", Pp, [te("a", Lp, de(v(t)("about.license")), 1), Dp, te("a", LpC, de(v(t)("页面由 FeiLingshu 修改")), 1), Dp, fe(" Copyright © 2023 Devifish. All rights reserved. ")])]))
     }
 });
 const Mp = {
