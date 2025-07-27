@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": "icons/logo128.png",
+      "default_popup": "index.html#/popup",
+      "default_title": "MY-NEW-TAB"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html#/"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "default_locale": "zh_CN",
+   "description": "...",
+   "host_permissions": [ "https://cn.bing.com/", "https://suggestion.baidu.com/", "https://api.bing.com/", "https://suggestqueries.google.com/" ],
+   "icons": {
+      "128": "icons/logo128.png",
+      "48": "icons/logo48.png",
+      "16": "icons/logo16.png"
+   },
+   "key":
+   "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgNYIsGV77D4/K01GkHh6oRlWVviGf1Dwhe7PKwp0aVO0szol5ZyVEgA8+c6mVl2PklU7uyy0AI5DqYaOtSr9PB/EPDEq+lJMg/M8r3VygheR0ArxnRVSiDcyPabUnxTl2ojwi8X2v/NvusVJyjzqURYTxG7Pi+grGwPke2PHu7aGyWJVVfUUWMKIL26fOZejjgzLUL95m7EtIPoVbVwuwVKKm+Ng9O7A+3PihhMSVEg38yPnRdSmdiOsDWGADgJJWC7GN8f8JRquikTAmJizqgvfO32DHV7FDBE5NT1U+sLutLwuUZJxJfkgI/CLD5wkva7379ee7/OQiTHDJhtUAQIDAQAB",
+   "manifest_version": 3,
+   "name": "MY-NEW-TAB",
+   "optional_permissions": [ "topSites" ],
+   "permissions": [ "favicon" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "999.9.9"
+}
